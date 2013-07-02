@@ -28,12 +28,19 @@ in porting the microcontroller firmware to Python.*
 Install
 =======
 
-Unzip (includes web.py). Run::
+Unzip (includes web.py).
+
+Config:
+
+* Edit ``data/snames.txt`` to change names of stations.
+
+Run::
 
   $ python ospi.py host:8080
 
 Go to: http://host:8080
 
+Default pwd is "opendoor"
 
 PREPARATION
 ============
